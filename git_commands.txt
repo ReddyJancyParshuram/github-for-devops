@@ -6,8 +6,18 @@ git rm -- cached filename   -- to remove (from staged to untracked)
 git commit -m"  "   --- to add file to git version control system (now file is tracked)
 git restore file name  -- to get deleted files
 
+to Push code from Local Laptop to Git Repository
+we use PAT(Personal Access Token) -or- SSH key
+to generate PAT in GitHub-- settings-- Developer Settings-- Personal Access Token -- Generate
+
+When you Create Repository in GitHub then it is ---- main
+when you Create Repository in your Local Laptop then it is --- master
+
 git remote add origin https://github.com/ReddyJancyParshuram/github-for-devops.git   --- to push existing repository from command line
 git remote -v   -- to check url
 git remote set-url origin https://Personal Access Token@github.com<origin url>   - to set url
 git remote -v
 git push origin master  -- to push from local to github
+
+GitHub -Repository can be Clone -Or- Fork (To copy code)
+Clone -- GitHub to Local  ,  Fork-- GitHub to GitHub
