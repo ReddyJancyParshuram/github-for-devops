@@ -1,3 +1,6 @@
+Git is a Version Control System (tool) that is used to maintain the source code and keep record of your code and version
+GitHub/GitLab/BitBucket... are the platforms (it has GUI)
+
 git init    -- to initialize
 git status  -- to check the status
 git add filename   -- to add file system from untracted to staged 
