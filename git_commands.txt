@@ -1,0 +1,7 @@
+git init    -- to initialize
+git status  -- to check the status
+git add filename   -- to add file system from untracted to staged 
+git add .    --- to add all files 
+git rm -- cached filename   -- to remove (from staged to untracked)
+git commit -m"  "   --- to add file to git version control system (now file is tracked)
+git restore file name  -- to get deleted files
