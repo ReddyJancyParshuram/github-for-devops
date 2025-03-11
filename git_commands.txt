@@ -7,6 +7,7 @@ git add filename   -- to add file system from untracted to staged
 git add .    --- to add all files 
 git rm -- cached filename   -- to remove (from staged to untracked)
 git commit -m"  "   --- to add file to git version control system (now file is tracked)
+git log  -- to see the latest commit of your repository  (HEAD represents the latest commit of your repository)
 git restore file name  -- to get deleted files
 
 to Push code from Local Laptop to Git Repository
