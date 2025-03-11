@@ -24,6 +24,7 @@ git push origin master  -- to push from local to github
 
 GitHub -Repository can be Clone -Or- Fork (To copy code)
 Clone -- GitHub to Local  ,  Fork-- GitHub to GitHub
+git clone<code url> -- to get code from GitHub to Local Laptop
 
 git pull origin master --- to pull code from Github to Local 
 
