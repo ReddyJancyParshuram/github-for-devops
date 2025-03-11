@@ -26,3 +26,7 @@ GitHub -Repository can be Clone -Or- Fork (To copy code)
 Clone -- GitHub to Local  ,  Fork-- GitHub to GitHub
 
 git pull origin master --- to pull code from Github to Local 
+
+git branch 
+git chechout -B Dev   -or-   git branch Dev    -- to create a new branch Dev from Master
+git switch Dev
