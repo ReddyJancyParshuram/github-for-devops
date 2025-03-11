@@ -5,3 +5,9 @@ git add .    --- to add all files
 git rm -- cached filename   -- to remove (from staged to untracked)
 git commit -m"  "   --- to add file to git version control system (now file is tracked)
 git restore file name  -- to get deleted files
+
+git remote add origin https://github.com/ReddyJancyParshuram/github-for-devops.git   --- to push existing repository from command line
+git remote -v   -- to check url
+git remote set-url origin https://Personal Access Token@github.com<origin url>   - to set url
+git remote -v
+git push origin master  -- to push from local to github
