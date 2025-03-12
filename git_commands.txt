@@ -7,7 +7,6 @@ git add filename   -- to add file system from untracted to staged
 git add .    --- to add all files 
 git rm -- cached filename   -- to remove (from staged to untracked)
 git commit -m"  "   --- to add file to git version control system (now file is tracked)
-git log  -- to see the latest commit of your repository  (HEAD represents the latest commit of your repository)
 git restore file name  -- to get deleted files
 
 to Push code from Local Laptop to Git Repository
@@ -25,5 +24,10 @@ git push origin master  -- to push from local to github
 
 GitHub -Repository can be Clone -Or- Fork (To copy code)
 Clone -- GitHub to Local  ,  Fork-- GitHub to GitHub
-git clone<code url> -- to get code from GitHub to Local Laptop
+
 git pull origin master --- to pull code from Github to Local 
+
+git branch 
+git chechout -B Dev   -or-   git branch Dev    --> to create a new branch Dev from Master
+git switch Dev  -or- git checkout  --> to switch branch
+git log  -or-  git log --oneline  --> to see the latest commit of your repository (HEAD represents the latest commit of your repository)
