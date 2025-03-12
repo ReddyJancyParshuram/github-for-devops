@@ -30,6 +30,6 @@ git clone<code url> -- to get code from GitHub to Local Laptop
 git pull origin master --- to pull code from Github to Local 
 
 git branch 
-git chechout -B Dev   -or-   git branch Dev    --> to create a new branch Dev from Master
-git switch Dev  -or- git checkout  --> to switch branch
-git log  -or-  git log --oneline  --> to see the latest commit of your repository (HEAD represents the latest commit of your repository)
+git chechout -B Dev   -or-   git branch Dev    -- to create a new branch Dev from Master
+git switch Dev
+git log  -or-  git log --oneline  --> to see the latest commit of your repository (HEAD represents the latest commit of your repository)z
